@@ -7,7 +7,7 @@ import { deleteRating, getMovies, movieRating } from '../../utils/api';
 import { checkRated, showAlert } from '../../utils/commonFunction';
 
 const MovieCard = ({ data, showRatingIcon }) => {
-    const { _id, img, title, releaseYear, averageRating, totalCounting } = data;
+    const { _id, image, title, releaseYear, averageRating, totalCounting } = data;
     const [showRating, setShowRating] = useState(true);
     const { isLogin, auth } = useSelector((store) => store);
     const dispatch = useDispatch();
@@ -29,7 +29,7 @@ const MovieCard = ({ data, showRatingIcon }) => {
                 setAuth({
                     isLogin: true, details: {
                         ...auth.details,
-                        ratedMovies: [...res.data.ratedMovies]
+                        RatedMoviesList: [...res.data.RatedMoviesList]
                     }
                 }, dispatch);
                 getMovies()
@@ -67,7 +67,7 @@ const MovieCard = ({ data, showRatingIcon }) => {
     }
     return (
         <div className='movieCard'>
-            <img src={img} />
+            <img src={image} />
             <h2>{title}</h2>
             <div className='movieDetails'>
                 <p>Release Year</p>

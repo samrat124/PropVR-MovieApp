@@ -1,4 +1,4 @@
-const apiURL = 'mongodb+srv://Samrat:samrat@cluster0.ao3zhuv.mongodb.net/?retryWrites=true&w=majority';
+const apiURL = 'https://propvr-movieapp.up.railway.app/';
 
 
 export const getMovies =async()=>{
