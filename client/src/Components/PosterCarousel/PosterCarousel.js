@@ -27,15 +27,15 @@ const responsive = {
 const bannerImg = [
     {
         id: 1,
-        img: 'https://i0.wp.com/www.heyuguys.com/images/2013/05/Man-of-Steel-Banner-UK.jpg?fit=2366%2C1088&ssl=1'
+        img: 'https://c4.wallpaperflare.com/wallpaper/622/961/80/movie-venom-wallpaper-preview.jpg'
     }, 
     {
         id:2,
-        img:'https://wallpapercave.com/wp/wp9424755.jpg'
+        img:'https://c4.wallpaperflare.com/wallpaper/968/387/691/joker-movies-artwork-joaquin-phoenix-joker-2019-movie-hd-wallpaper-preview.jpg'
     },
     {
         id:3,
-        img:'https://images.thedirect.com/media/article_full/New_Marvel_DP_Banner.jpg'
+        img:'https://c4.wallpaperflare.com/wallpaper/200/1016/942/deadpool-movies-marvel-comics-wallpaper-preview.jpg'
     }
 ]
 
