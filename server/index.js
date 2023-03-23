@@ -16,7 +16,7 @@ app.use('/movies',movieRouter);
 app.use('/users',userRouter);
 
 app.use('/',(req,res)=>{
-    req.send('Done');x
+    res.send('Done');x
 })
 
 
